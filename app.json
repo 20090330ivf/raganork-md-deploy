@@ -1,7 +1,7 @@
 {
     "name": "Raganork MD",
     "description": "multi device based WhatsApp Public/User bot.",
-    "logo": "https://www.linkpicture.com/q/rgnk.jpg",
+    "logo": "https://i.ibb.co/1XXcNYr/fbe67db8-faac-4d51-83fd-06a0a67aeb39.jpg",
     "keywords": ["WhatsApp", "Userbot", "Raganork", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/souravkl11/Raganork",
     "website":   "https://bit.ly/Raganork",
@@ -15,7 +15,7 @@
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
-            "required": false,
+            "required": true,
             "value":"jid,jid"
         },
         "READ_MESSAGES": {
@@ -71,7 +71,7 @@
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
-            "value":"```I am alive since {uptime}```"
+            "value":"```I am online {uptime}```"
         },
        "SESSION": {
             "description": "Your MD session",
